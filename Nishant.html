@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project | Time Table</title>
+</head>
+<body>
+    <style>
+            .day{
+                background-color: chocolate;
+            }
+            .head{
+                background-color: chartreuse;
+            }
+            .Saturday{
+                background-color: red;
+            }
+            .Wednesday{
+                background: yellow;
+            }
+            .Tuesday{
+                background-color: yellowgreen;
+            }
+            .Monday{
+                background-color: gray;
+            }
+            .Friday{
+                background-color: blue;
+            }
+            .Thursday{
+                background-color: aqua;
+            }
+    </style>
+    <!-- Table | Time Table -->
+    <table border cellpadding="16px">
+        <thead>
+            <tr class="head">
+                <th colspan="9">Time Table</th>
+            </tr>
+            <tr class="day" >
+                <th>Day/Lecture</th>
+                <th>I <br /> 10:00 - 10:50 AM</th>
+                <th>II <br /> 10:50 - 11:40 AM</th>
+                <th>III <br /> 11:40 - 12:30 Pm</th>
+                <th>IV <br /> 12:30 - 01:20 PM</th>
+                <th>Lunch <br/>01:20 - 02:00 PM</th>
+                <th>IV <br /> 02:00 - 02:50 PM</th>
+                <th>IV <br /> 02:50 - 03:40 PM</th>
+                <th>IV <br /> 03:40 - 04:30 PM</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <!-- row one -->
+            <tr class="Monday"> 
+                <td>Monday</td>
+                <td>MATH</td>
+                <td>BEE</td>
+                <td>PHY</td>
+                <td>ED</td>
+                <td rowspan="6">Lunch Break</td>
+                <td colspan="4">LAB(PHY)</td>
+                
+            </tr>
+            <!-- Row two -->
+            <tr class="Tuesday">
+                <td>Tuesday</td>
+                <td>BEE</td>
+                <td>MATH</td>
+                <td>ED</td>
+                <td>PHY</td>
+                <td colspan="4">LIBARARY</td>
+                
+            </tr>
+
+            
+            <!-- Row three -->
+            <tr class="Wednesday">
+                <td>Wednesday</td>
+                <td>BEE</td>
+                <td>MATH</td>
+                <td>ED</td>
+                <td>PHY</td>
+                <td colspan="4">LAB(BEE)</td>
+                
+            </tr>
+            <!-- Row Four -->
+            <tr class="Thursday">
+                <td>Thursday</td>
+                <td>PHY</td>
+                <td colspan="3">ED</td>
+                
+                <td colspan="4">LAB(PHY)</td>
+                
+            </tr>
+            <!-- Row Five -->
+            <tr class="Friday">
+                <td>Friday</td>
+                <td>BEE</td>
+                <td colspan="3">LAB(ED)</td>
+                
+                <td colspan="4">SEMINAR</td>
+                
+            </tr>
+            <!-- Row six -->
+            <tr class="Saturday">
+                <td>Saturday</td>
+                <td>MATH</td>
+                <td colspan="3">ED</td>
+                
+                <td colspan="4">LIBARARY</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
